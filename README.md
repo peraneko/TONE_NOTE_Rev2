@@ -57,7 +57,7 @@ https://yushakobo.jp/shop/promicro-spring-pinheader/
 ### キースイッチ  
 遊舎工房さんで同時購入するのがおすすめです。  
 https://yushakobo.jp/shop/a02gs/  
-https://yushakobo.jp/shop/gateron-ink-switches/
+https://yushakobo.jp/shop/gateron-ink-switches/  
 10個入りのおすすめがこの辺です。実店舗では、触って感触を調べることもできます。  
   
 ### キーキャップ  
