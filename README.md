@@ -63,7 +63,7 @@ https://yushakobo.jp/shop/gateron-ink-switches/
 ### キーキャップ  
 CherryMX互換のキーキャップを利用できます。  
 https://talpkeyboard.stores.jp/?category_id=59e2acfaed05e644fd004008  
-1Uのキーキャップが8個必要ですので、10個パックを買ったほうがお得かもしれません。
+1Uのキーキャップが8個必要ですので、10個パックを買ったほうがお得かもしれません。  
   
 ### ロータリーエンコーダノブ  
 付属のロータリーエンコーダノブ以外のものを使いたい場合は、下記を参考にしてください。
