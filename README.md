@@ -12,7 +12,7 @@ TONEおよびNOTEは、ロータリーエンコーダを使用して、おもに
   - 組立工具の確認と手配を行ってください。  
   
 - 2 組み立て手順の確認と組立  
-  - [buildguide.md](https://github.com/peraneko/TONE/blob/master/buildguide.md)にてご案内します。  
+  - [buildguide.md](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/buildguide.md)にてご案内します。  
   
 - 3 ファームウエアの書き込み方法  
   - [TONE_QMK_firmware.md](https://github.com/peraneko/TONE/blob/master/TONE_QMK_firmware.md)にてご案内します。  
