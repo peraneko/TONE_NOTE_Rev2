@@ -97,4 +97,4 @@ Androidスマホを使っている／使っていた方はそのケーブルが�
 また、遊舎工房さんの店頭でも買えます。  
   
 必要な部品と道具が揃ったら、組み立てに進みましょう。  
-[組立手順/ビルドガイド]()
+[組立手順/ビルドガイド](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/buildguide.md)
