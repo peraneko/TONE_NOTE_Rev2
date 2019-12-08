@@ -160,7 +160,7 @@ QMKファームウエアのリポジトリには、まだTONEが取り込まれ�
 そのため、わたしのGitHubからファイルを取得して、qmk_firmware-master\keyboardsに置く必要があります。  
 
 ダウンロードするフォルダ  
-https://github.com/peraneko/TONE/tree/master/tone  
+https://github.com/peraneko/TONE_NOTE_Rev2/tree/master/tone_rev2  
 
 ダウンロードしたファイルを置く場所  
 qmk_firmware-master\keyboards
