@@ -8,12 +8,13 @@ QMKファームウエアは、先程とりつけたProMicroにこれから書き
 まずは物理的にキーが動作しているか確認するためのファームウエアで、ハンダ付けがうまく行っているかを確認しましょう。  
 
 テスト用のファームウエアはこちらに用意してあります。  
-[tone_test.hex](https://github.com/peraneko/TONE/blob/master/TONE_HEX/tone_test.hex)  
+[tone_test.hex](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/TONE_NOTE_HEX/tone_test.hex)  
 tone_test.hexをダウンロードして、わかりやすい場所に置いておきます。  
 
 ファームウエアの書き込みについては、QMK Toolboxを利用します。
 [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)  のダウンロード画面で、自分の使っているOSにあわせてダウンロードするファイルを選んでください。  
 MAC OS/Windowsともに用意されています。  
+##※QMK toolboxに不具合があり、現在ダウンロードできるファイルでは正常に動作しない可能性があります。
 
 QMK Toolboxを無事にダウンロードできたら、インストールして実行してください。  
 このような画面が表示されます。この画面はWindows版のためMACを利用している方は、適宜読み替えてください。    
@@ -90,8 +91,8 @@ void encoder_update_user(uint16_t index, bool clockwise) {
 }
 
 ~~~
-[tone_ALR.hex](https://github.com/peraneko/TONE/blob/master/TONE_HEX/tone_ALR.hex)  
-tone_ALR.hexをダウンロードして、わかりやすい場所に置き、先程の手順でProMicroに書き込んでみましょう。
+[tone_default.hex](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/TONE_NOTE_HEX/tone_default.hex)  
+tone_default.hexをダウンロードして、わかりやすい場所に置き、先程の手順でProMicroに書き込んでみましょう。
 
 上段の４キーが左からCtrl+SHIFT+E（書き出し）　SHIFT+TAB　TAB　0    
 下段の４キーが左からSHIFT　CTRL+←（前の画像）　CTRL＋→（次の画像） CTRL+Z（UNDO)  
