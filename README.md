@@ -15,7 +15,7 @@ TONEおよびNOTEは、ロータリーエンコーダを使用して、おもに
   - [buildguide.md](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/buildguide.md)にてご案内します。  
   
 - 3 ファームウエアの書き込み方法  
-  - [TONE_QMK_firmware.md](https://github.com/peraneko/TONE/blob/master/TONE_QMK_firmware.md)にてご案内します。  
+  - [USAGE_QMK_firmware.md](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/USAGE_QMK_firmware.md)にてご案内します。  
   
 - 4 組み立てFAQ  
   - TONE_FAQ.mdにてご案内します。  
