@@ -52,8 +52,8 @@ void encoder_update_user(uint16_t index, bool clockwise) {
 
 ~~~
 
-上段の４キーが左からABCD  
-下段の４キーが左からEFGH  
+上段の４キーが左からabcd  
+下段の４キーが左からefgh  
 ロータリーエンコーダ時計回りが0  
 反時計回りが1です。    
 
