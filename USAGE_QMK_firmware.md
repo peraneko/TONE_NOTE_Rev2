@@ -1,7 +1,7 @@
 
 # ファームウエアの書き込み
 ### ファームウエアとはなにか
-TONEでは、キー入力をPCに渡すために、QMKファームウエアを利用しています。  
+TONE＆NOTEでは、キー入力をPCに渡すために、QMKファームウエアを利用しています。  
 QMKファームウエアは、先程とりつけたProMicroにこれから書き込まれ、キーの入力をPCで認識できる入力形式に変換して、PCに送る動作を行います。    
 
 ### TONEの動作確認をする
@@ -16,8 +16,7 @@ tone_test.hexをダウンロードして、わかりやすい場所に置いて�
 ### 現在QMK toolboxに不具合が発生しています。  
 現在公開中のファイルでは正常に動作しない可能性があります。  
 
-
-MAC OS/Windowsともに用意されています。  
+MAC OS/Windows用のQMK Toolboxが用意されています。  
 
 QMK Toolboxを無事にダウンロードできたら、インストールして実行してください。  
 このような画面が表示されます。この画面はWindows版のためMACを利用している方は、適宜読み替えてください。    
@@ -96,7 +95,10 @@ void encoder_update_user(uint16_t index, bool clockwise) {
 ~~~
 [tone_default.hex](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/TONE_NOTE_HEX/tone_default.hex)  
 tone_default.hexをダウンロードして、わかりやすい場所に置き、先程の手順でProMicroに書き込んでみましょう。
+NOTEで使用する場合は、[note_default.hex](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/TONE_NOTE_HEX/note_default.hex)を使用してください。
 
+
+### TONEの場合
 上段の４キーが左からCtrl+SHIFT+E（書き出し）　SHIFT+TAB　TAB　0    
 下段の４キーが左からSHIFT　CTRL+←（前の画像）　CTRL＋→（次の画像） CTRL+Z（UNDO)  
 ロータリーエンコーダ時計回りが↑
@@ -108,6 +110,24 @@ tone_default.hexをダウンロードして、わかりやすい場所に置き�
 |---|---|---|---|---|  
 |上段|Ctrl+SHIFT+E(書き出し)|SHIFT+TAB|TAB|0|  
 |下段|SHIFT|CTRL+←(前の画像)|CTRL＋→(次の画像)|CTRL+Z(UNDO)| 
+|ロータリーエンコーダ|時計回り|反時計回り|||  
+|ロータリーエンコーダ|↑|↓|||  
+
+
+
+### NOTEの場合
+上段の４キーが左から0　TAB　SHIFT+TAB　Ctrl+SHIFT+E（書き出し）  
+下段の４キーが左からCTRL+Z（UNDO)　CTRL＋→（次の画像）　CTRL+←（前の画像）　SHIFT   
+ロータリーエンコーダ時計回りが↑
+反時計回りが↓です。
+
+ちょうどキー部分がTONEと鏡写しになっています。
+※わかりにくいので、近い将来TONEとNOTEの設定ファイルを分割する予定です。
+
+|-|左１|左２|左３|左４|  
+|---|---|---|---|---|  
+|上段|0|TAB|SHIFT+TAB|Ctrl+SHIFT+E(書き出し)|  
+|下段|CTRL+Z(UNDO)|CTRL＋→(次の画像)|CTRL+←(前の画像)| SHIFT|
 |ロータリーエンコーダ|時計回り|反時計回り|||  
 |ロータリーエンコーダ|↑|↓|||  
 
