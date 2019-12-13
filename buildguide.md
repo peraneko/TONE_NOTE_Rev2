@@ -37,19 +37,6 @@ ProMicroの部品が実装されている面にコンスルーを差し込みま
 ProMicroとコンスルーをはんだ付けします。コテ先が差込やすいように、ProMicroを少し斜めに置くとやりやすいでしょう。  
 ![ProMicro3](https://user-images.githubusercontent.com/5952961/59015626-63026600-887a-11e9-8832-33c9d1f8476a.JPG)
 
-
-
-### リセットスイッチの取り付け
-裏面からリセットスイッチをとりつけます。  
-![リセットスイッチ](https://user-images.githubusercontent.com/5952961/59015608-5716a400-887a-11e9-9d98-709e4c4d751c.JPG)
-   
-表面側からハンダ付けします。
-![リセットスイッチ表](https://user-images.githubusercontent.com/5952961/59015611-58e06780-887a-11e9-8a01-9fee2a655bb4.JPG)
-リセットスイッチの足がくの字になっていますが、根本と穴がハンダ付けできていれば大丈夫です。
-  
-![リセットスイッチ表](https://user-images.githubusercontent.com/5952961/59017786-62b89980-887f-11e9-8f38-b8d8dbdde931.JPG)
-完成後の写真ですがこうなってればOK  
-
 ### キースイッチの取り付け
 PCBを裏返し、表面からキースイッチを差し込んでいきます。
 ![キースイッチ取り付け](https://user-images.githubusercontent.com/5952961/59015641-6ac20a80-887a-11e9-9752-d6244277618a.JPG)
@@ -70,6 +57,17 @@ PCBを裏返し、表面からキースイッチを差し込んでいきます�
 固定用の爪には、少し多めにハンダを送ることになるでしょう。
 ハンダ付けが終わった状態はこんな感じです。  
 ![ロータリエンコーダ取り付け](https://user-images.githubusercontent.com/5952961/59020673-723ae100-8885-11e9-8aa4-36966ac36e32.JPG)
+
+### リセットスイッチの取り付け
+裏面からリセットスイッチをとりつけます。  
+![リセットスイッチ](https://user-images.githubusercontent.com/5952961/59015608-5716a400-887a-11e9-9d98-709e4c4d751c.JPG)
+   
+表面側からハンダ付けします。
+![リセットスイッチ表](https://user-images.githubusercontent.com/5952961/59015611-58e06780-887a-11e9-8a01-9fee2a655bb4.JPG)
+リセットスイッチの足がくの字になっていますが、根本と穴がハンダ付けできていれば大丈夫です。
+  
+![リセットスイッチ表](https://user-images.githubusercontent.com/5952961/59017786-62b89980-887f-11e9-8f38-b8d8dbdde931.JPG)
+完成後の写真ですがこうなってればOK  
 
 ### ProMicroの取り付け
 ProMicroとTONEのPCBははんだ付けせずに取り付けをおこないます。
