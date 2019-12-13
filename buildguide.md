@@ -14,11 +14,8 @@
 
 ### PCBの観察
 組み立て前にPCBをよく観察しましょう。  
-表面  
-![表面](https://user-images.githubusercontent.com/5952961/59015603-53831d00-887a-11e9-9317-fc6034f22bb8.JPG)
-  
-裏面  
-![裏面](https://user-images.githubusercontent.com/5952961/59015604-54b44a00-887a-11e9-970e-1b54efc60440.JPG)
+表面　ロータリーエンコーダの丸と□の枠と、位置で把握してください。  
+![表面](https://user-images.githubusercontent.com/5952961/70760444-f7e79e00-1d8c-11ea-9192-e38eabcd4244.jpg)
 
 ### ProMicroの組み立て
 コンスルーとピンヘッダの識別を行います。
@@ -38,7 +35,7 @@ ProMicroとコンスルーをはんだ付けします。コテ先が差込やす
 ![ProMicro3](https://user-images.githubusercontent.com/5952961/59015626-63026600-887a-11e9-8832-33c9d1f8476a.JPG)
 
 ### キースイッチの取り付け
-PCBを裏返し、表面からキースイッチを差し込んでいきます。
+PCB表面からキースイッチを差し込んでいきます。
 ![キースイッチ取り付け](https://user-images.githubusercontent.com/5952961/59015641-6ac20a80-887a-11e9-9752-d6244277618a.JPG)
 8キーすべて差し込んだら、裏返します。   
 ![キースイッチ取り付け](https://user-images.githubusercontent.com/5952961/59015653-70b7eb80-887a-11e9-9d5d-cd56120fc6c0.JPG)
