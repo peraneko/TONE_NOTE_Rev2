@@ -16,7 +16,7 @@ tone_test.hexをダウンロードして、わかりやすい場所に置いて�
 ### 現在QMK toolboxに不具合が発生しています。  
 現在公開中のファイルでは正常に動作しない可能性があります。  
 
-MAC OS/Windows用のQMK Toolboxが用意されています。  
+本来であれば、正常に動作するMAC OS/Windows用のQMK Toolboxが用意されています。  
 
 QMK Toolboxを無事にダウンロードできたら、インストールして実行してください。  
 このような画面が表示されます。この画面はWindows版のためMACを利用している方は、適宜読み替えてください。    
@@ -126,8 +126,8 @@ NOTEで使用する場合は、[note_default.hex](https://github.com/peraneko/TO
 
 |-|左１|左２|左３|左４|  
 |---|---|---|---|---|  
-|上段|0|TAB|SHIFT+TAB|Ctrl+SHIFT+E(書き出し)|  
-|下段|CTRL+Z(UNDO)|CTRL＋→(次の画像)|CTRL+←(前の画像)| SHIFT|
+|上段|0|SHIFT+TAB|TAB|Ctrl+SHIFT+E(書き出し)|  
+|下段|CTRL+Z(UNDO)|CTRL+←(前の画像)|CTRL＋→(次の画像)| SHIFT|
 |ロータリーエンコーダ|時計回り|反時計回り|||  
 |ロータリーエンコーダ|↑|↓|||  
 
