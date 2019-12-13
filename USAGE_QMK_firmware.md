@@ -94,7 +94,7 @@ void encoder_update_user(uint16_t index, bool clockwise) {
 
 ~~~
 [tone_default.hex](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/TONE_NOTE_HEX/tone_default.hex)  
-tone_default.hexをダウンロードして、わかりやすい場所に置き、先程の手順でProMicroに書き込んでみましょう。
+tone_default.hexをダウンロードして、わかりやすい場所に置き、先程の手順でProMicroに書き込んでみましょう。  
 NOTEで使用する場合は、[note_default.hex](https://github.com/peraneko/TONE_NOTE_Rev2/blob/master/TONE_NOTE_HEX/note_default.hex)を使用してください。
 
 
@@ -121,7 +121,7 @@ NOTEで使用する場合は、[note_default.hex](https://github.com/peraneko/TO
 ロータリーエンコーダ時計回りが↑
 反時計回りが↓です。
 
-ちょうどキー部分がTONEと鏡写しになっています。
+ちょうどキー部分がTONEと鏡写しになっています。  
 ※わかりにくいので、近い将来TONEとNOTEの設定ファイルを分割する予定です。
 
 |-|左１|左２|左３|左４|  
