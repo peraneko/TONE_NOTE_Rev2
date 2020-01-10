@@ -51,6 +51,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 /* Rotary encoder define*/
 #define ENCODERS_PAD_A { B5 }
 #define ENCODERS_PAD_B { B4 }
+#define TAP_CODE_DELAY 100
 
  /*
  * Split Keyboard specific options, make sure you have 'SPLIT_KEYBOARD = yes' in your rules.mk, and define SOFT_SERIAL_PIN.
