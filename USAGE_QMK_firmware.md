@@ -13,10 +13,6 @@ tone_test.hexをダウンロードして、わかりやすい場所に置いて�
 
 ファームウエアの書き込みについては、QMK Toolboxを利用します。
 [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases)  のダウンロード画面で、自分の使っているOSにあわせてダウンロードするファイルを選んでください。  
-~~### 現在QMK toolboxに不具合が発生しています。
-現在公開中のファイルでは正常に動作しない可能性があります。  ~~
-
-本来であれば、正常に動作するMAC OS/Windows用のQMK Toolboxが用意されています。  
 
 QMK Toolboxを無事にダウンロードできたら、インストールして実行してください。  
 このような画面が表示されます。この画面はWindows版のためMACを利用している方は、適宜読み替えてください。    
@@ -140,8 +136,6 @@ NOTEで使用する場合は、[note_default.hex](https://github.com/peraneko/TO
 
 実際の手順はこんな感じになります。  
 下記ページよりQMKファームウェアを入手します。  
-zipedのファイルをダウンロードする場合は、別途「lufa」というライブラリを必要とします。
-そのため、git cloneを行うことを推奨します。
 
 https://github.com/qmk/qmk_firmware/
 
@@ -149,6 +143,12 @@ QMKファームウエアのディレクトリは用意できたでしょうか�
 Cドライブ直下に置いたことにして、説明を続けます。  
 ※gitに慣れている方はクローンの方が良いでしょう。
 
+これが手元（ローカル）のQMKフォルダとなります。  
+QMKファームウエアの仕様が変わり、「lufa」ライブラリを自分で取得することになりました。  
+    
+https://r7cancer.hatenablog.com/entry/2019/10/18/153458  
+こちらのブログの手順を実行してください。
+  
 #### ビルド環境を作る
 ##### macOS
 homebrewを使う手順を説明します。  
@@ -180,8 +180,8 @@ cd /c/qmk_firmware/util/msys2_install.sh と入力して、実行します。
 終わったらmsys2を再起動します    
 
 #### 設定ファイルのダウンロード   
-QMKファームウエアのリポジトリには、まだTONEが取り込まれていません。  
-そのため、わたしのGitHubからファイルを取得して、qmk_firmware-master\keyboardsに置く必要があります。  
+GitHub上のQMKファームウエアのリポジトリには、まだTONEが取り込まれていません。  
+そのため、わたしのGitHubからTONE＆NOTEの設定ファイルを取得して、手元のqmk_firmwareのフォルダ（qmk_firmware-master\keyboards）に置く必要があります。  
 
 ダウンロードするフォルダ  
 https://github.com/peraneko/TONE_NOTE_Rev2/tree/master/tone_rev2  
