@@ -189,15 +189,17 @@ GitHub上のQMKファームウエアのリポジトリには、まだTONEが取�
 https://github.com/peraneko/TONE_NOTE_Rev2/tree/master/tone_rev2  
   
 ダウンロードしたファイルを置く場所  
-qmk_firmware-master\keyboards
-　　
+qmk_firmware-master\keyboards  
+  
 qmk_firmware-master\keyboards\tone_rev2  
-というようにフォルダ（と中身のファイル）が置けていれば大丈夫です。
+というようにフォルダ（と中身のファイル）が置けていれば大丈夫です。  
 
 #### 設定ファイルのビルド
 qmk_firmwareの第一階層で以下のようにします。  
 
-make tone_rev2:default   
+make tone_rev2:default　//検証中です（20210523）  
+このとき、makeコマンドのあとに、tone_rev2のディレクトリが正しく設定されているか確認してください。  
+  
 しばらく時間がかかるかもしれませんが、tone_rev2_default.hexというファイルが生成されます。
 このファイルをQMK ToolBoxでProMicroに書き込めば、使用できます。
 
