@@ -175,8 +175,8 @@ msys2を起動します
 ダウンロードしておいたQMKファームウェアのフォルダに移動します。  
 qmk_firmwareのフォルダは、先程Cドライブ直下に置きました。  
 
-cdコマンドでqmk_firmwareを置いたフォルダに移動します。　
-cd /c/qmk_firmware/util/　
+cdコマンドでqmk_firmwareを置いたフォルダに移動します。　  
+cd /c/qmk_firmware/util/　   
 このフォルダでmsys2_install.sh と入力して、インストーラを実行します。  
 インストールするパッケージを聞かれますので答えていきます。不明な質問であれば、全てYとしてください。  
 終わったらmsys2を再起動します。    
