@@ -187,15 +187,18 @@ GitHub上のQMKファームウエアのリポジトリには、まだTONEが取�
 
 ダウンロードするフォルダ  
 https://github.com/peraneko/TONE_NOTE_Rev2/tree/master/tone_rev2  
-
+  
 ダウンロードしたファイルを置く場所  
 qmk_firmware-master\keyboards
+　　
+qmk_firmware-master\keyboards\tone_rev2  
+というようにフォルダ（と中身のファイル）が置けていれば大丈夫です。
 
 #### 設定ファイルのビルド
 qmk_firmwareの第一階層で以下のようにします。  
 
-make tone:default   
-しばらく時間がかかるかもしれませんが、tone_default.hexというファイルが生成されます。
+make tone_rev2:default   
+しばらく時間がかかるかもしれませんが、tone_rev2_default.hexというファイルが生成されます。
 このファイルをQMK ToolBoxでProMicroに書き込めば、使用できます。
 
 ### キーマップのカスタマイズ
@@ -215,7 +218,7 @@ qmk_firmwareの第一階層で`./util/new_keymap.sh` を使うと、下記の様
 <あなたのkeymap名>フォルダ内のkeymap.cを好みに合わせて編集してください。  
 
 編集後のビルドコマンドは以下のようになります。  
-make tone:<あなたのkeymap名>  
+make tone_rev2:<あなたのkeymap名>  
 
 #### 注意　
 ロータリーエンコーダを時計回り方向に回した場合に入力したいキーコードは、if（clockwise）内のtap_code()に書き込みます。
