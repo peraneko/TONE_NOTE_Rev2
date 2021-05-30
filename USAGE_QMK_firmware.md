@@ -184,11 +184,10 @@ cdコマンドでqmk_firmwareを置いたフォルダに移動し、msys2.shを�
 `cd /c/qmk_firmware/util/install`
 msys2.sh
 
-~~
+<!-- 
 インストールするパッケージを聞かれますので答えていきます。不明な質問であれば、全てYとしてください。  
 終わったらmsys2を再起動します。   
-~~ 
-
+-->
 #### 設定ファイルのダウンロード   
 GitHub上のQMKファームウエアのリポジトリには、まだTONEが取り込まれていません。  
 そのため、わたしのGitHubからTONE＆NOTEの設定ファイルを取得して、手元のqmk_firmwareのフォルダ（qmk_firmware-master\keyboards）に置く必要があります。  
