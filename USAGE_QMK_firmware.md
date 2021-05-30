@@ -180,17 +180,14 @@ First run pacman -Syu:
 ダウンロードしておいたQMKファームウェアのフォルダに移動します。  
 qmk_firmwareのフォルダは、先程Cドライブ直下に置きました。  
 
-cdコマンドでqmk_firmwareを置いたフォルダに移動します。　  
-cd /c/qmk_firmware/util/　   
-このフォルダでmsys2_install.sh と入力して、インストーラを実行します。  
-  
-※cdコマンドと.shが競合するかもしれないので上記のように書いています（調査中）  
-　こちらの操作で一撃でできる可能性もあります。  
-c/qmk_firmware/util/msys2_install.sh  
-  
-  
+cdコマンドでqmk_firmwareを置いたフォルダに移動し、msys2.shを実行します。　  
+`cd /c/qmk_firmware/util/install`
+msys2.sh
+
+~~
 インストールするパッケージを聞かれますので答えていきます。不明な質問であれば、全てYとしてください。  
-終わったらmsys2を再起動します。    
+終わったらmsys2を再起動します。   
+~~ 
 
 #### 設定ファイルのダウンロード   
 GitHub上のQMKファームウエアのリポジトリには、まだTONEが取り込まれていません。  
