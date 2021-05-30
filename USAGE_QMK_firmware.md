@@ -174,7 +174,7 @@ msys2を使う手順を説明します。
 下記URLにしたがって初期設定を行い、msys2を起動します。  
 https://www.msys2.org/  
 手順５の操作が必要です。  
-`Update the package database and base packages. Unless your setup file is very recent, it will take two steps.`   
+`Update the package database and base packages. Unless your setup file is very recent, it will take two steps.`    
 First run pacman -Syu:  
 
 ダウンロードしておいたQMKファームウェアのフォルダに移動します。  
