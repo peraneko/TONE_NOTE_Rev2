@@ -204,7 +204,7 @@ qmk_firmware-master\keyboards\tone_rev2
 #### 設定ファイルのビルド
 qmk_firmwareの第一階層で以下のようにします。  
 
-make tone_rev2:default　//検証中です（20210523）  
+make tone_rev2:default   
 このとき、makeコマンドのあとに、tone_rev2のディレクトリが正しく設定されているか確認してください。  
   
 しばらく時間がかかるかもしれませんが、tone_rev2_default.hexというファイルが生成されます。
