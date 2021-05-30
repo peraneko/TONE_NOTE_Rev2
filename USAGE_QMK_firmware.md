@@ -180,10 +180,11 @@ First run pacman -Syu:
 ダウンロードしておいたQMKファームウェアのフォルダに移動します。  
 qmk_firmwareのフォルダは、先程Cドライブ直下に置きました。  
 
-cdコマンドでqmk_firmwareを置いたフォルダに移動した後、msys2.shを実行します。　  
-`cd /c/qmk_firmware/util/install`  
-msys2.sh
-
+cdコマンドでqmk_firmwareを置いたフォルダに移動した後、msys2.shを実行します。　
+Cドライブ直下にqmk_firmwareが置かれている場合は次のようになります。
+`cd /c/` enter    
+`qmk_firmware/util/install/msys2.sh` enter  
+  
 <!-- 
 インストールするパッケージを聞かれますので答えていきます。不明な質問であれば、全てYとしてください。  
 終わったらmsys2を再起動します。   
