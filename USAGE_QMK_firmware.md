@@ -135,6 +135,8 @@ NOTEで使用する場合は、[note_default.hex](https://github.com/peraneko/TO
 そのため、QMKファームウエアの設定を変更することで、キーの割当を思い通りに設定できます。
 
 実際の手順はこんな感じになります。  
+
+
 下記ページよりQMKファームウェアを入手します。  
 
 https://github.com/qmk/qmk_firmware/
@@ -173,13 +175,20 @@ msys2を使う手順を説明します。
 64bit OSの時 : msys2-x86_64-xxxxxxxx.exe  
 下記URLにしたがって初期設定を行い、msys2を起動します。  
 https://www.msys2.org/  
-手順５の操作が必要です。  
+  
+起動の際、MSYS2のインストールフォルダから、mingw64.exeをダブルクリックして起動してください。  
+  
+コンソールが開いたら、次の手順でMSYS2を最新のパッケージにアップデートします。  
 `Update the package database and base packages. Unless your setup file is very recent, it will take two steps.`    
 First run pacman -Syu:  
 
 ダウンロードしておいたQMKファームウェアのフォルダに移動します。  
 qmk_firmwareのフォルダは、先程Cドライブ直下に置きました。  
+QMKのフォルダに移動し、QMKのインストールを行います（この表現でいいのだろうか）  
+cd /c/qmk_firmware-master
+/util/qmk_install.sh  
 
+<!-- 
 cdコマンドでqmk_firmwareを置いたフォルダに移動した後、msys2.shを実行します。　
 Cドライブ直下にqmk_firmwareが置かれている場合は次のようになります。
 `cd /c/` enter    
