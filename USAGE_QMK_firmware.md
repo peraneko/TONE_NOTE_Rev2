@@ -180,13 +180,13 @@ https://www.msys2.org/
   
 コンソールが開いたら、次の手順でMSYS2を最新のパッケージにアップデートします。  
 `Update the package database and base packages. Unless your setup file is very recent, it will take two steps.`    
-First run pacman -Syu:  
+`First run pacman -Syu:`  
 
 ダウンロードしておいたQMKファームウェアのフォルダに移動します。  
 qmk_firmwareのフォルダは、先程Cドライブ直下に置きました。  
 QMKのフォルダに移動し、QMKのインストールを行います（この表現でいいのだろうか）  
-cd /c/qmk_firmware-master
-/util/qmk_install.sh  
+`cd /c/qmk_firmware-master`  
+`/util/qmk_install.sh`    
 
 <!-- 
 cdコマンドでqmk_firmwareを置いたフォルダに移動した後、msys2.shを実行します。　
