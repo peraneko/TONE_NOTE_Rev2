@@ -169,6 +169,10 @@ homebrewを使っていなかったらインストールしておきます。
 
 ##### Windows
 msys2を使う手順を説明します。  
+  
+私が書いたのよりわかりやすくて実践的な内容のブログがあるので、リンクします。  
+https://bigotor.com/qmk-firmware/  
+集合知 著者の方、ありがとうありがとう。  
 
 [msys2](https://www.msys2.org/)のサイトから、自分が使っているWindowsに合わせたインストーラをダウンロード＆インストールします。   
 32bit OSの時 : msys2-i686-xxxxxxx.exe   
