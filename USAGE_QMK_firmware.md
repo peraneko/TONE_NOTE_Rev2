@@ -237,7 +237,7 @@ qmk_firmwareの第一階層で`./util/new_keymap.sh` を使うと、下記の様
 ```:shell
 ./util/new_keymap.sh <keyboard> <user_name>
 ```
-<keyboard>にはtoneが入ります。  
+\<keyboard\>にはtoneが入ります。  
 <user_name>には、バージョン名やどういう使い方を意図しているのかを入力すると便利です。    
 ![コマンドライン](https://user-images.githubusercontent.com/5952961/59074284-b5d52f80-8905-11e9-9fa1-2dc9dc96dfee.png)  
 ./util/new_keymap.shとtoneの間、toneとFPSの間には半角スペースを忘れずに入れてください。  
