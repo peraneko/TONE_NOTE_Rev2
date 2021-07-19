@@ -260,7 +260,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 };
 
 /* Rotary encoder settings */
-void encoder_update_user(uint16_t index, bool clockwise) {
+bool encoder_update_user(uint16_t index, bool clockwise) {
    if (clockwise) {
         tap_code(KC_UP);    //Rotary encoder clockwise
     } else {
