@@ -135,22 +135,15 @@ NOTEで使用する場合は、[note_default.hex](https://github.com/peraneko/TO
 そのため、QMKファームウエアの設定を変更することで、キーの割当を思い通りに設定できます。
 
 実際の手順はこんな感じになります。  
+Windows QMK MSYSを利用  
+その他のOS QMK firmwareを利用  
 
-
-下記ページよりQMKファームウェアを入手します。  
-
+Windows以外の方は、下記ページよりQMKファームウェアを入手します。  
 https://github.com/qmk/qmk_firmware/
 
 QMKファームウエアのディレクトリは用意できたでしょうか。
 Cドライブ直下に置いたことにして、説明を続けます。  
-※gitに慣れている方はクローンの方が良いでしょう。
-
-これが手元（ローカル）のQMKフォルダとなります。  
-cloneではなくzipで入手した場合は、下記の「lufa」ライブラリの取得が必要になります。  
-QMKファームウエアの仕様が変わり、「lufa」ライブラリを自分で取得することになりました。  
-    
-https://r7cancer.hatenablog.com/entry/2019/10/18/153458  
-こちらのブログの手順を実行してください。
+※必ず、git cloneで取得してください。
   
 #### ビルド環境を作る
 ##### macOS
@@ -159,16 +152,33 @@ homebrewを使う手順を説明します。
 ターミナルを起動します。  
 homebrewを使っていなかったらインストールしておきます。  
 次に下記のコマンドをそれぞれ実行します  
-- brew tap osx-cross/avr
-- brew tap PX4/homebrew-px4
-- brew update
-- brew install avr-gcc@7
-- brew install dfu-programmer
-- brew install gcc-arm-none-eabi
-- brew install avrdude
-
+- brew tap osx-cross/avr 
+- brew tap PX4/homebrew-px4 
+- brew update 
+- brew install avr-gcc@7 
+- brew install dfu-programmer 
+- brew install gcc-arm-none-eabi 
+- brew install avrdude 
+  
 ##### Windows
-msys2を使う手順を説明します。  
+QMK MSYSを利用します。  
+  
+https://msys.qmk.fm/guide.html#next-steps
+こちらから取得して使用してください。  
+  
+QMK MSYSをダウンロードした場合、設定ファイルは下記の場所にあります。  
+C:\Users\あなたのusername\qmk_firmware\keyboards\tone_rev2  
+例）C:\Users\peraneko\qmk_firmware\keyboards\tone_rev2  usernameがperanekoの場合  
+  
+C:\Users\あなたのusername\qmk_firmware\keyboards\tone_rev2\keymaps\default 内の  
+keymap.cを書き換え、変更できます。  
+詳しいやり方はQMKMSYSのサイトを参考にしてください。  
+  
+日本語の情報だとこちらのサイトを参考にさせていただきました。
+https://zenn.dev/diwamoto/articles/1943345edce519  
+  
+旧来の手順の記載も残しておきます。    
+msys2を使う手順となります。  
   
 私が書いたのよりわかりやすくて実践的な内容のブログがあるので、リンクします。  
 https://bigotor.com/qmk-firmware/  
