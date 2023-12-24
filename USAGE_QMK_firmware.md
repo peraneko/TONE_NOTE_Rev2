@@ -164,91 +164,18 @@ homebrewを使っていなかったらインストールしておきます。
 ##### Windows
 QMK MSYSを利用します。  
 QMK MSYSに関しては、オフィシャルサイトがあるのでそちらから使用方法を確認してください。  
-
+  
 https://msys.qmk.fm/  
+  
 QMK MSYSをダウンロードした場合、設定ファイルは下記の場所にあります。  
 C:\Users\あなたのusername\qmk_firmware\keyboards\peranekofactory  
 例）C:\Users\peraneko\qmk_firmware\keyboards\peranekofactory usernameがperanekoの場合  
 ※標準インストール時（フォルダなどを変更している場合は、ご自身の環境に合わせて読み替えてください）  
-
-<!--
-https://msys.qmk.fm/guide.html#next-steps  
-こちらから取得して使用してください。  
-  
-QMK MSYSをダウンロードした場合、設定ファイルは下記の場所にあります。  
-C:\Users\あなたのusername\qmk_firmware\keyboards\tone_rev2  
-例）C:\Users\peraneko\qmk_firmware\keyboards\tone_rev2  usernameがperanekoの場合  
-  
-C:\Users\あなたのusername\qmk_firmware\keyboards\tone_rev2\keymaps\default 内の  
-keymap.cを書き換え、変更できます。  
-詳しいやり方はQMKMSYSのサイトを参考にしてください。  
-  
-日本語の情報だとこちらのサイトを参考にさせていただきました。
-https://zenn.dev/diwamoto/articles/1943345edce519  
-  
-旧来の手順の記載も残しておきます。    
-msys2を使う手順となります。  
--->
   
 私が書いたのよりわかりやすくて実践的な内容のブログがあるので、リンクします。  
 https://bigotor.com/qmk-firmware/  
 集合知 著者の方、ありがとうありがとう。  
   
-    
-<!--
-人力でやるときの手順  
-[msys2](https://www.msys2.org/)のサイトから、自分が使っているWindowsに合わせたインストーラをダウンロード＆インストールします。   
-32bit OSの時 : msys2-i686-xxxxxxx.exe   
-64bit OSの時 : msys2-x86_64-xxxxxxxx.exe  
-下記URLにしたがって初期設定を行い、msys2を起動します。  
-https://www.msys2.org/  
-  
-起動の際、MSYS2のインストールフォルダから、mingw64.exeをダブルクリックして起動してください。  
-  
-コンソールが開いたら、次の手順でMSYS2を最新のパッケージにアップデートします。  
-`Update the package database and base packages. Unless your setup file is very recent, it will take two steps.`    
-`First run pacman -Syu:`  
-
-ダウンロードしておいたQMKファームウェアのフォルダに移動します。  
-qmk_firmwareのフォルダは、先程Cドライブ直下に置きました。  
-QMKのフォルダに移動し、QMKのインストールを行います（この表現でいいのだろうか）  
-`cd /c/qmk_firmware-master`  
-`/util/qmk_install.sh`    
--->
-
-
-<!-- 
-cdコマンドでqmk_firmwareを置いたフォルダに移動した後、msys2.shを実行します。　
-Cドライブ直下にqmk_firmwareが置かれている場合は次のようになります。
-`cd /c/` enter    
-`qmk_firmware/util/install/msys2.sh` enter  
--->
-<!-- 
-インストールするパッケージを聞かれますので答えていきます。不明な質問であれば、全てYとしてください。  
-終わったらmsys2を再起動します。   
--->
-#### 設定ファイルのダウンロード   
-GitHub上のQMKファームウエアのリポジトリには、まだTONEが取り込まれていません。  
-そのため、わたしのGitHubからTONE＆NOTEの設定ファイルを取得して、手元のqmk_firmwareのフォルダ（qmk_firmware-master\keyboards）に置く必要があります。  
-
-ダウンロードするフォルダ  
-https://github.com/peraneko/TONE_NOTE_Rev2/tree/master/tone_rev2  
-  
-ダウンロードしたファイルを置く場所  
-qmk_firmware-master\keyboards  
-  
-qmk_firmware-master\keyboards\tone_rev2  
-というようにフォルダ（と中身のファイル）が置けていれば大丈夫です。  
-
-#### 設定ファイルのビルド
-qmk_firmwareの第一階層で以下のようにします。  
-
-make tone_rev2:default   
-このとき、makeコマンドのあとに、tone_rev2のディレクトリが正しく設定されているか確認してください。  
-  
-しばらく時間がかかるかもしれませんが、tone_rev2_default.hexというファイルが生成されます。
-このファイルをQMK ToolBoxでProMicroに書き込めば、使用できます。
-
 ### キーマップのカスタマイズ
 既存のキーマップをカスタマイズする際は、現在のキーマップをバックアップしましょう。  
 どこか別のフォルダにいれて、keymap_org.cなどとリネームしておけば良いでしょう。  
@@ -269,7 +196,7 @@ qmk_firmwareの第一階層で`./util/new_keymap.sh` を使うと、下記の様
 
 編集後のビルドコマンドは以下のようになります。  
 make tone:<あなたのkeymap名>  
--->
+
 #### 注意　
 ロータリーエンコーダを時計回り方向に回した場合に入力したいキーコードは、if（clockwise）内のtap_code()に書き込みます。
 ロータリーエンコーダを反時計回りに回した場合に入力したいキーコードは、else句の下の行のtap_code()に書き込みます。
