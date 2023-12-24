@@ -146,10 +146,10 @@ Cドライブ直下に置いたことにして、説明を続けます。
 ※必ず、git cloneで取得してください。
   
 #### ビルド環境を作る
-<!--
 ##### macOS
 homebrewを使う手順を説明します。  
-
+※未検証なので、最新情報をご自身で確認するのを推奨します。  
+  
 ターミナルを起動します。  
 homebrewを使っていなかったらインストールしておきます。  
 次に下記のコマンドをそれぞれ実行します  
@@ -163,7 +163,15 @@ homebrewを使っていなかったらインストールしておきます。
   
 ##### Windows
 QMK MSYSを利用します。  
-  
+QMK MSYSに関しては、オフィシャルサイトがあるのでそちらから使用方法を確認してください。  
+
+https://msys.qmk.fm/  
+QMK MSYSをダウンロードした場合、設定ファイルは下記の場所にあります。  
+C:\Users\あなたのusername\qmk_firmware\keyboards\peranekofactory
+例）C:\Users\peraneko\qmk_firmware\keyboards\peranekofactory usernameがperanekoの場合  
+※標準インストール時（フォルダなどを変更している場合は、ご自身の環境に合わせて読み替えてください）  
+
+<!--
 https://msys.qmk.fm/guide.html#next-steps
 こちらから取得して使用してください。  
   
