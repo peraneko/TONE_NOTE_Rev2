@@ -167,12 +167,12 @@ QMK MSYSに関しては、オフィシャルサイトがあるのでそちらか
 
 https://msys.qmk.fm/  
 QMK MSYSをダウンロードした場合、設定ファイルは下記の場所にあります。  
-C:\Users\あなたのusername\qmk_firmware\keyboards\peranekofactory
+C:\Users\あなたのusername\qmk_firmware\keyboards\peranekofactory  
 例）C:\Users\peraneko\qmk_firmware\keyboards\peranekofactory usernameがperanekoの場合  
 ※標準インストール時（フォルダなどを変更している場合は、ご自身の環境に合わせて読み替えてください）  
 
 <!--
-https://msys.qmk.fm/guide.html#next-steps
+https://msys.qmk.fm/guide.html#next-steps  
 こちらから取得して使用してください。  
   
 QMK MSYSをダウンロードした場合、設定ファイルは下記の場所にあります。  
@@ -188,13 +188,14 @@ https://zenn.dev/diwamoto/articles/1943345edce519
   
 旧来の手順の記載も残しておきます。    
 msys2を使う手順となります。  
+-->
   
 私が書いたのよりわかりやすくて実践的な内容のブログがあるので、リンクします。  
 https://bigotor.com/qmk-firmware/  
 集合知 著者の方、ありがとうありがとう。  
   
     
-
+<!--
 人力でやるときの手順  
 [msys2](https://www.msys2.org/)のサイトから、自分が使っているWindowsに合わせたインストーラをダウンロード＆インストールします。   
 32bit OSの時 : msys2-i686-xxxxxxx.exe   
@@ -213,13 +214,15 @@ qmk_firmwareのフォルダは、先程Cドライブ直下に置きました。
 QMKのフォルダに移動し、QMKのインストールを行います（この表現でいいのだろうか）  
 `cd /c/qmk_firmware-master`  
 `/util/qmk_install.sh`    
+-->
+
 
 <!-- 
 cdコマンドでqmk_firmwareを置いたフォルダに移動した後、msys2.shを実行します。　
 Cドライブ直下にqmk_firmwareが置かれている場合は次のようになります。
 `cd /c/` enter    
 `qmk_firmware/util/install/msys2.sh` enter  
-  
+-->
 <!-- 
 インストールするパッケージを聞かれますので答えていきます。不明な質問であれば、全てYとしてください。  
 終わったらmsys2を再起動します。   
